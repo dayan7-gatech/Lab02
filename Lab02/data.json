@@ -1,0 +1,40 @@
+{
+    "chart_title": "The Little Things That Make People Happy",
+    "data_points": [
+        {
+            "label": "Spending Time with Friends",
+            "happiness_rating": 9,
+            "relaxation_rating": 8
+        },
+        {
+            "label": "Listening to Music",
+            "happiness_rating": 8,
+            "relaxation_rating": 9
+        },
+        {
+            "label": "Playing with Pets",
+            "happiness_rating": 10,
+            "relaxation_rating": 9
+        },
+        {
+            "label": "Going on Walks",
+            "happiness_rating": 8,
+            "relaxation_rating": 10
+        },
+        {
+            "label": "Watching Movies",
+            "happiness_rating": 7,
+            "relaxation_rating": 9
+        },
+        {
+            "label": "helping Others",
+            "happiness_rating": 10,
+            "relaxation_rating": 7
+        },
+        {
+            "label": "Baking",
+            "happiness_rating": 9,
+            "relaxation_rating": 8
+        }
+    ]
+}
