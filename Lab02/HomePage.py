@@ -13,11 +13,14 @@ st.set_page_config(
 
 # WELCOME PAGE TITLE
 st.title("The Little Things That Make People Happy 🌻☀️")
-st.image("images/rise.jpeg", use_container_width=True)
+from pathlib import Path
+
+image_path = Path(__file__).parent / "images" / "rise.jpeg"
+st.image(str(image_path), use_container_width=True)
 
 # INTRODUCTORY TEXT
 st.write("""
-Happiness can be found in the simples moments, whether it's
+Happiness can be found in the simplest moments, whether it's
 spending time with friends, listening to music, or enjoying
 a walk outside.
 
