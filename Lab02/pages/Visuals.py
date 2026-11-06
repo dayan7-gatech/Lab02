@@ -4,6 +4,7 @@ import streamlit as st
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # PAGE CONFIGURATION
 st.set_page_config(
@@ -18,7 +19,7 @@ st.title("Data Visualizations 📈")
 # PART 1: GRAPHS FROM data.json
 
 # Read the JSON file
-with open("data.json", "r") as file:
+with open(Path(__file__).parent.parent / "data.json", "r") as file:
     data = json.load(file)
     
 #Create lists for the data
@@ -88,7 +89,7 @@ st.caption("Illustrative ratings on a scale of 1 to 10")
 # PART 2: GRAPHS FROM data.csv
 st.header("Survey Results")
 
-csv_data = pd.read_csv("data.csv")
+csv_data = pd.read_csv(Path(__file__).parent.parent / "data.csv")
 
 if not csv_data.empty:
     
